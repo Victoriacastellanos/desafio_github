@@ -1,0 +1,271 @@
+/*NORMALIZAR ESTILOS*/
+
+* {
+   border: 0px;
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+/*INDEX*/
+.imgprincipal{
+    width: 100vw;
+    height: 700px;
+}
+main{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*GENERAL*/
+.logo{
+    width: 50%;
+    justify-items: center;
+    align-items: center;
+}
+h1{
+    align-items: start;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 250%;  
+}
+.barranavegacion{
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    gap: 9px;
+    
+}
+/*.barranavegacion{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content:flex-end;
+    flex-wrap: nowrap;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    gap: 8px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+}*/
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    background-color: brown;
+    color: white;
+}
+header{
+    background-color: rgb(194, 60, 48); 
+    color: white;
+    display: grid;
+    grid-template-columns: 100px auto 370px;
+    grid-template-rows: 70px;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+/*PRODUCTOS
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    line-height: 45px;
+}
+.tempranillo{
+    display: inline;
+    position: absolute;
+    left: 120px;
+    top: 240px;
+    padding-right: 50px;
+    text-align: justify;
+}
+.tempranilloimg{
+    border: 10px;
+    border-color: black;
+    border-radius: 15px;
+    
+}
+.malbec{
+    display: inline;
+    position: absolute;
+    right: 180px;
+    bottom: 0px;
+    top: 420px;
+    padding-left: 50px;
+    text-align: justify;
+}
+.malbecimg{
+    border: 10px;
+    border-color: black;
+    border-radius: 15px;
+    position: absolute;
+    left: 1200px;
+    top: 340px;
+}
+.torrontes{
+    display: inline;
+    position: absolute;
+    left: 120px;
+    bottom: 0px;
+    top: 650px;
+    padding-right: 50px;
+    text-align: justify;
+}
+.torrontesimg{
+    border: 10px;
+    border-color: black;
+    border-radius: 15px;
+    position: relative;
+    top: 90px;
+}
+.vinos{
+    background-color: rgb(255, 220, 250);
+    padding-bottom: 100px;
+}
+.jamones{
+    background-color: #ffc8fa;
+    padding-top: 5px;
+    padding-right: 400px;
+    text-align: justify;
+}
+.jamonesimg{
+    border: 10px;
+    border-radius: 15px;
+    position: relative;
+    left: 1000px;
+    bottom: 120px;
+}*/
+footer{
+    background-color: rgb(115, 36, 29);
+    color: white;
+    text-align: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 450px;
+    text-align: justify;
+    line-height: 40px;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 25px;
+}
+
+main{
+    background-color: rgb(255, 220, 250);
+    border: 5px;
+}
+/*FINCA*/
+.titulo-finca{
+    text-align: center;
+    line-height: 40px;
+}
+.textofinca{
+    text-align: center;
+}
+.imagenprincipalfinca{
+    width: 100vw;
+}
+/*HISTORIA*/
+.primerosaños{
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.esplendor{
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 25px;
+}
+.ocaso{
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 25px;
+}
+
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+/*CONTACTO*/
+form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+}
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+}
+input:hover{
+    background-color: brown;
+    color: white;
+    border: brown;
+    border-radius: 10px;
+}
+input{
+    background-color: rgb(216, 202, 202);
+    border: 5px;
+    border-radius: 10px;
+    padding: 5px;
+}
+/*FLEX-CONTAINER*/
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+.flex-item{
+    
+}
+
+/*GRID CONTAINER*/ /*Recomendable trabajar con 12 columnas*/
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px 50px;
+    grid-template-areas: 
+    "header header  header  header  header  header  header  header  header  header  header  header"
+    "article    article article article article article"
+    ;
+}
+.header-1{
+    grid-area: header;
+    background-color: aqua;
+}
+.article-1{
+    grid-area: article;
+    background-color: blueviolet;
+}
+/*
+#grilla{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    
+    ;    
+}
+.article-1{
+    background-color: aqua;
+    grid-area: article;
+}
+*/
