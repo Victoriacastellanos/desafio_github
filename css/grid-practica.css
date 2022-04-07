@@ -153,7 +153,8 @@ li{
     animation-duration: 1s;
     animation-delay: 1s;*/
 
-    
+    animation-name: backInLeft;
+    animation-duration: 2s;
 }
 /*@keyframes mover_imagen_tempranillo {
     0%{
@@ -204,7 +205,8 @@ li{
     border-radius: 15px;
     transform: translateY(-20px);
 
-    
+    animation-name: backInRight;
+    animation-duration: 2s;
 
 }
 .principal .botonmalbec{
@@ -229,7 +231,8 @@ li{
     padding: 10px 10px 10px 10px;
     border-radius: 15px;
 
-    
+    animation-name: backInLeft;
+    animation-duration: 2s;
 }
 .principal .torrontestexto{
     grid-row: 6;
@@ -273,7 +276,7 @@ li{
     border-radius: 15px;
     transform: translateX(30px);
 
-    animation-name: backInRight;
+    animation-name: backInLeft;
     animation-duration: 2s;
 }
 .principal .botonjamones{
