@@ -65,6 +65,9 @@ a:hover{
     cursor: pointer;
 }
 
+main{
+    background-image: linear-gradient(rgba(238, 195, 195, 0.884),#caa4a0);
+}
 
 /*INDEX*/
 .imgprincipal{
