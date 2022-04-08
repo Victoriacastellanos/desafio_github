@@ -41,68 +41,73 @@
         </nav>
 
     </header>
-    <main>
+    <main class="contacto">
     <h2>Quedamos en Contacto</h2>
-    <form action="procesar.php" method="post">
+        <form action="procesar.php" method="post">
 
-        <fieldset> 
+            <fieldset> 
             <legend>Contacto</legend>
-        
-        <p>
-        <label for="nombre">Nombre: </label>
-        <input type="text" name="nombre" placeholder="Ingrese su nombre">
-        </p>
+            
+            <div class="formulario">
+            <p>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" placeholder="Ingrese su nombre">
+            </p>
 
-        <p>
-        <label for="apellido">Apellido:</label>
-        <input type="text" surname="apelido" placeholder="Ingrese su apellido">
-        </p>
+            <p>
+            <label for="apellido">Apellido:</label>
+            <input type="text" surname="apelido" placeholder="Ingrese su apellido">
+            </p>
 
-        <p>
-        <label for="mail">Mail: </label>
-        <input type="email" email="mail" placeholder="Ingrese su mail">
-        </p>
+            <p>
+            <label for="mail">Mail: </label>
+            <input type="email" email="mail" placeholder="Ingrese su mail">
+            </p>
 
-        <!--Radio-->
-        <p>Productos</p>
+            <!--Radio-->
+            <p>Productos</p>
 
-        <label for="productos" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Vino</label>
-        <input type="radio" name="productos" value="vino">
+            <label for="productos" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Vino</label>
+            <input type="radio" name="productos" value="vino">
 
-        <label for="productos" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Jamon</label>
-        <input type="radio" name="productos" value="jamon">
+            <label for="productos" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Jamon</label>
+            <input type="radio" name="productos" value="jamon">
 
-        <!--Checkbox-->
-        <p>Vinos</p>
-        <label for="vino" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Tempranillo</label>
-        <input type="checkbox" name="vino" value="Tempranillo">
+            <!--Checkbox-->
+            <p>Vinos</p>
+            <label for="vino" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Tempranillo</label>
+            <input type="checkbox" name="vino" value="Tempranillo">
 
-        <label for="vino" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Malbec</label>
-        <input type="checkbox" name=vino" value="Malbec">
+            <label for="vino" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Malbec</label>
+            <input type="checkbox" name="vino" value="Malbec">
 
-        <label for="vino" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Torrontes</label>
-        <input type="checkbox" name=vino" value="Torrontes">
+            <label for="vino" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Torrontes</label>
+            <input type="checkbox" name="vino" value="Torrontes">
 
-        <!--Menu desplegable-->
-        <p>Asunto</p>
-        <select name="asunto" id="">
-            <option value="personal">Personal</option>
-            <option value="regalo">Regalo</option>
-        </select>
+            <!--Menu desplegable-->
+            <p>Asunto</p>
+            <select name="asunto" id="">
+                <option value="personal">Personal</option>
+                <option value="regalo">Regalo</option>
+            </select>
 
-        <!--Area de texto-->
-        <p>Dejanos tu comentario</p>
-        <textarea name="comentarios" id="" cols="50" rows="20" placeholder="Escriba su mensaje" style="font-family: Verdana, Geneva, Tahoma, sans-serif;"></textarea>
+            <!--Area de texto-->
+            <p>Dejanos tu comentario</p>
+            <textarea name="comentarios" id="" cols="50" rows="20" placeholder="Escriba su mensaje" style="font-family: Verdana, Geneva, Tahoma, sans-serif;"></textarea>
 
-        <!--Botones-->
-        <p>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Borrar Formulario">
-        <input type="button" value="Sin acciones">
-        </p>
+            <!--Botones-->
+            <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar Formulario">
+            <input type="button" value="Sin acciones">
+            </p>
+            </div>
 
-        </fieldset>
-    </form>
+            <!--Imagen-->
+            <img src="../assets/vino y jamon 2.JPG" alt="" class="imagenform">
+
+            </fieldset>
+        </form>
     </main>
     
     <footer class="piedepagina">

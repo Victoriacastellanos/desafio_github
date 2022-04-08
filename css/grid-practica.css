@@ -65,6 +65,9 @@ a:hover{
     cursor: pointer;
 }
 
+main{
+    background-image: linear-gradient(rgba(238, 195, 195, 0.884),#caa4a0);
+}
 
 /*INDEX*/
 .imgprincipal{
@@ -150,7 +153,9 @@ li{
     animation-duration: 1s;
     animation-delay: 1s;*/
 
-    
+    animation-name: backInLeft;
+    animation-duration: 2s;
+
 }
 /*@keyframes mover_imagen_tempranillo {
     0%{
@@ -201,8 +206,8 @@ li{
     border-radius: 15px;
     transform: translateY(-20px);
 
-    
-
+    animation-name: backInRight;
+    animation-duration: 2s;
 }
 .principal .botonmalbec{
     grid-row: 5;
@@ -226,7 +231,9 @@ li{
     padding: 10px 10px 10px 10px;
     border-radius: 15px;
 
-    
+    animation-name: backInLeft;
+    animation-duration: 2s;
+
 }
 .principal .torrontestexto{
     grid-row: 6;
@@ -270,8 +277,9 @@ li{
     border-radius: 15px;
     transform: translateX(30px);
 
-    animation-name: backInRight;
+    animation-name: backInLeft;
     animation-duration: 2s;
+
 }
 .principal .botonjamones{
     grid-row: 10;
