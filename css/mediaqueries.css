@@ -2,14 +2,14 @@
     p{
         font-size: 12px;
     }
-    .navbar{
+    .navbarcss{
         position: relative;
     }
-    .navbar h1{
+    .navbarcss h1{
         font-size: 15px;
         grid-column: 3/11;
     }
-    .navbar .menu-bar{
+    .navbarcss .menu-bar{
         display: block;
         grid-column: 12;
         cursor: pointer;
@@ -17,13 +17,13 @@
         color: white;
         font-size: 20px;
     }
-    .navbar .shop{
+    .navbarcss .shop{
         display: none;
     }
-    .navbar .menu{
+    .navbarcss .menu{
         display: none;
     }
-    .navbar .logo{
+    .navbarcss .logo{
         width: 35px;
         height: 40px;
     }
@@ -206,29 +206,29 @@
 
 
 @media (min-width: 481px) and (max-width: 600px) {
-    .navbar{
+    .navbarcss{
         position: relative;
     }
-    .navbar .shop{
+    .navbarcss .shop{
         display: none;
     }
-    .navbar .menu-bar{
+    .navbarcss .menu-bar{
         display: block;
         grid-column: 12;
         cursor: pointer;
         font-size: 30px;
         color: white;
     }
-    .navbar .menu{
+    .navbarcss .menu{
         display: none;
     }
-    .navbar h1{
+    .navbarcss h1{
         font-family: 'Times New Roman', Times, serif;
         color: white;
         font-size: 25px;
         grid-column: 3/10;
     }
-    .navbar .logo{
+    .navbarcss .logo{
         width: 50px;
         height: 60px;
         grid-column: 1;
@@ -373,28 +373,28 @@
 }
 
 @media (min-width:601px) and (max-width:900px){
-    .navbar{
+    .navbarcss{
         position: relative;
     }
-    .navbar .shop{
+    .navbarcss .shop{
         display: flex;
         padding-left: 5px;
     }
-    .navbar .menu-bar{
+    .navbarcss .menu-bar{
         display: none
     }
-    .navbar .logo{
+    .navbarcss .logo{
         width: 50px;
         height: 60px;
         grid-column: 1;
         grid-row: 1;
     }
-    .navbar .menu{
+    .navbarcss .menu{
         display: flex;
         grid-column: 11;
         font-size: 12px;
     }
-    .navbar h1{
+    .navbarcss h1{
         font-family: 'Times New Roman', Times, serif;
         color: white;
         font-size: 20px;
@@ -438,26 +438,26 @@
     }
 }
 @media (min-width:901px) and (max-width:1200px){
-    .navbar{
+    .navbarcss{
         position: relative;
     }
-    .navbar .shop{
+    .navbarcss .shop{
         display: flex;
         padding-left: 10px;
     }
-    .navbar .menu-bar{
+    .navbarcss .menu-bar{
         display: none;
         grid-column: 12;
         cursor: pointer;
         font-size: 30px;
         color: white;
     }
-    .navbar .menu{
+    .navbarcss .menu{
         display: flex;
         grid-column: 11;
         
     }
-    .navbar h1{
+    .navbarcss h1{
         font-size: 30px;
         grid-column: 3/9;
     }
@@ -482,5 +482,57 @@
     }
     .principal .titulotempranillo{
         transform: translate(-400px,55px);
+    }
+}
+@media (min-width:1201px) and (max-width:1400px){
+    .navbar .menu-bar{
+        display: none;
+    }
+    
+    .navbarcss{
+        position: relative;
+    }
+    .navbarcss .shop{
+        display: flex;
+        padding-left: 10px;
+    }
+    .navbarcss .menu-bar{
+        display: none;
+        grid-column: 12;
+        cursor: pointer;
+        font-size: 30px;
+        color: white;
+    }
+    .navbarcss .menu{
+        display: flex;
+        grid-column: 11;
+        
+    }
+    .navbarcss h1{
+        font-size: 30px;
+        grid-column: 3/9;
+    }
+    /*INDEX 1201-1400*/
+    .principal1{
+        display: grid;
+        grid-template-rows: 40px 270px 40px 40px 1fr;
+        grid-template-columns: repeat(5,1fr);
+    }
+    .principal1 .imagen1vino{
+        width: 70px;
+    }
+    .principal .imagen2jamon{
+        width: 30px;
+    }
+    .principal1 .video{
+        width: 30vw;
+        height: 50vh;
+    }
+    .principal1 li{
+        font-size: 15px;
+    }
+    
+    .principal .titulotempranillo{
+        
     }
 }
