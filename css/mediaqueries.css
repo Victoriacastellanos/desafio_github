@@ -1,546 +1,233 @@
-@media (min-width: 320px) and (max-width: 480px) {
-    p{
-        font-size: 12px;
-    }
-    .navbarcss{
-        position: relative;
-    }
-    .navbarcss h1{
-        font-size: 15px;
-        grid-column: 3/11;
-    }
-    .navbarcss .menu-bar{
-        display: block;
-        grid-column: 12;
-        cursor: pointer;
-        font-size: 30px;
-        color: white;
-        font-size: 20px;
+/* >= 1400px / XXL */
+
+@media (min-width: 1400px){
+    
+    /*General*/
+    .navbarcss .menu{
+        grid-column: 9/12;
     }
     .navbarcss .shop{
-        display: none;
-    }
-    .navbarcss .menu{
-        display: none;
-    }
-    .navbarcss .logo{
-        width: 35px;
-        height: 40px;
-    }
-
-    /*INDEX 320-480*/
-    .imgprincipal{
-        width: 100vw;
-        height: 100vh;
-    }
-    .principal1 h2{
-        font-size: 18px;
-    }
-    .principal1 p{
-        font-size: 12px;
-    }
-    .principal1 li{
-        font-size: 12px;
-    }
-    .principal1{
         display: flex;
-        flex-direction: column;
-    }
-    .principal1 .imagen1vino{
-        display: inline;
-        width: 70px;
-    }
-    .principal1 .imagen2jamon{
-        display: inline;
-        width: 70px;
-    }
-    /*
-    .principal1 .titulo-quienes-somos{
-        grid-column: 1/6;
-        grid-row: 1;
-        text-align: center;
-    }
-    .principal1 .texto-quienes-somos{
-        grid-column: 1/6;
-        grid-row: 2;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        line-height: 30px;
-        text-align: justify;
-    }
-    .principal1 .titulo-nuestros-productos{
-        grid-row: 3;
-        grid-column: 1/6;
-        text-align: center;
-    }
-    .principal1 .imagen1vino{
-        width: 60px;
-        grid-row: 4;
-        grid-column: 2/3;
-        border-radius: 15px;
-        transform: translateX(-20px);
-    }
-    .principal1 .imagen2jamon{
-        width: 80px;
-        grid-row: 4;
-        grid-column: 3/6;
-        border-radius: 15px;
-        transform: translateX(20px);
-    }
-    .principal1 aside{
-        grid-column: 1/6;
-        grid-row: 5;
-        line-height: 30px;
-    }
-    .principal1 .titulo-aside{
-        text-align: center;
-        padding-top: 20px;
-    }
-    */
-    .principal1 .video{
-        width: 90vw;
-
-    
-
-
+        padding-left: 0px;
+        padding-bottom: 10px;
     }
 
-
-
-
-
-    /*PRODUCTOS 320-480*/
-    .principal{
-        grid-template-columns: repeat(5,1fr);
-        grid-template-rows: 30px 20px 110px 1fr 50px 20px 120px 1fr 50px 20px 120px 1fr 50px 20px 120px 1fr 50px;
-    }
-    .principal h2{
-        font-size: 15px;
-        grid-row: 1;
-        grid-column: 1/6;
-        justify-items: center;
-    }
-    .principal .titulotempranillo{
-        grid-row: 2;
-        font-size: 13px;
-    }
-    .principal .tempranilloimg{
-        width: 90px;
-        grid-row: 3;
-        grid-column: 2/3;
-
-    }
-    .principal .tempranillotexto{
-        font-size: 12px;
-        grid-column: 1/6;
-        grid-row: 4;
-        text-align: center;
-    }
-    .principal .botontempranillo{
-        grid-column: 2;
-        grid-row: 5;
-        size: 15px;
-    }
-    .principal .titulomalbec{
-        grid-row: 6;
-        font-size: 13px;
-    }
-    .principal .malbecimg{
-        width: 60px;
-        grid-row: 7;
-        grid-column: 2/3;
-    }
-    .principal .malbectexto{
-        font-size: 12px;
-        grid-row: 8;
-        grid-column: 1/6;
-        text-align: center;
-    }
-    .principal .botonmalbec{
-        grid-row: 9;
-    }
-    .principal .titulotorrontes{
-        grid-row: 10;
-        font-size: 13px;
-    }
-    .principal .torrontesimg{
-        width: 60px;
-        grid-row: 11;
-        grid-column: 2/3;
-    }
-    .principal .torrontestexto{
-        font-size: 12px;
-        grid-row: 12;
-        grid-column: 1/6;
-        text-align: center;
-    }
-    .principal .botontorrontes{
-        grid-row: 13;
-    }
-    .principal .titulojamones{
-        grid-row: 14;
-        font-size: 13px;
-    }
-    .principal .jamonesimg{
-        width: 90px;
-        grid-row: 15;
-        grid-column: 2/3;
-    }
-    .principal .jamonestexto{
-        font-size: 12px;
-        grid-row: 16;
-        grid-column: 1/6;
-        text-align: center;
-    }
-    .principal .botonjamones{
-        grid-row: 17;
-    }
-    /*HISTORIA 320-480*/
-
-    .historia h2{
-        font-size: 20px;
-    }
-    .historia h4{
-        font-size: 15px;
+    /*PRODUCTOS*/
+    .botonmalbec{
+        transform: translateX(1200px);
     }
 
-    /*FOOTER 320-480*/ 
-    .piedepagina{
-        font-size: 12px;
-    }
-    .piedepagina h4{
-        font-size: 15px;
-    }
 }
 
+/* >= 1200px / XL */
 
-@media (min-width: 481px) and (max-width: 600px) {
-    .navbarcss{
-        position: relative;
+@media (min-width: 1200px){
+    
+    /*General*/
+    .navbarcss .menu{
+        grid-column: 11;
     }
     .navbarcss .shop{
-        display: none;
-    }
-    .navbarcss .menu-bar{
-        display: block;
-        grid-column: 12;
-        cursor: pointer;
-        font-size: 30px;
-        color: white;
-    }
-    .navbarcss .menu{
-        display: none;
-    }
-    .navbarcss h1{
-        font-family: 'Times New Roman', Times, serif;
-        color: white;
-        font-size: 25px;
-        grid-column: 3/10;
-    }
-    .navbarcss .logo{
-        width: 50px;
-        height: 60px;
-        grid-column: 1;
-        grid-row: 1;
-    }
-    /*INDEX 481-600*/
-    .imgprincipal{
-        width: 100vw;
-        height: 100vh;
-    }
-    .principal1{
-        grid-template-rows: 40px 200px 40px 1fr;
-        grid-template-columns: repeat(5,1fr);
-    }
-    .principal1 .titulo-quienes-somos{
-        grid-column: 1/6;
-        grid-row: 1;
-        text-align: center;
-    }
-    .principal1 .texto-quienes-somos{
-        grid-column: 1/6;
-        grid-row: 2;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        line-height: 30px;
-        text-align: justify;
-    }
-    .principal1 .titulo-nuestros-productos{
-        grid-row: 3;
-        grid-column: 1/6;
-        text-align: center;
-    }
-    .principal1 .imagen1vino{
-        grid-row: 4;
-        grid-column: 2/3;
-        border-radius: 15px;
-        transform: translateX(-20px);
-    }
-    .principal1 .imagen2jamon{
-        grid-row: 4;
-        grid-column: 3/6;
-        border-radius: 15px;
-        transform: translateX(20px);
-    }
-    .principal1 aside{
-        grid-column: 1/6;
-        grid-row: 5;
-        line-height: 30px;
-    }
-    .principal1 .titulo-aside{
-        text-align: center;
-        padding-top: 20px;
-    }
-    .principal1 .video{
-        width: 90vw;
-    }
-
-    /*PRODUCTOS 481-600*/
-    .principal{
-        display: grid;
-        grid-template-columns: 170px 1fr 1fr 170px;
-        grid-template-rows: 40px 40px 1fr 20px 40px 1fr 20px 40px 1fr 20px 40px 1fr 20px;
-    }
-    .principal h2{
-        grid-column: 2/4;
-        grid-row: 1;
-        font-size: 20px;
-    }
-    .principal .titulotempranillo{
-        grid-column: 2;
-        grid-row: 2;
-    }
-    .principal .tempranilloimg{
-        grid-column: 1;
-        grid-row: 3;
-    }
-    .principal .tempranillotexto{
-        grid-column: 2/7;
-        grid-row: 3;
-        padding-right: 15px;
-    }
-    .principal .botontempranillo{
-        grid-row: 4;
-        grid-column: 1;
-    }
-    .principal .malbecimg{
-        width: 70px;
-        grid-column: 4;
-        grid-row: 6;
-    }
-    .principal .titulomalbec{
-        grid-row: 5;
-        grid-column: 2;
-    }
-    .principal .malbectexto{
-        grid-column: 1/4;
-        grid-row: 6;
-    }
-    .principal .botonmalbec{
-        grid-row: 7;
-        grid-column: 4;
-    }
-    .principal .titulotorrontes{
-        grid-row: 9;
-        grid-column: 1;
-    }
-    .principal .torrontestexto{
-        grid-column: 2/5;
-        grid-row: 9;
-    }
-    .principal .torrontesimg{
-        grid-row: 9;
-        grid-column: 1;
-    }
-    .principal .botontorrontes{
-        grid-row: 10;
-        grid-column: 1;
-    }
-    .principal .jamonesimg{
-        width: 140px;
-        grid-column: 1;
-        grid-row: 12;
-        transform: translate(20px,20px);
-    }
-    .principal .botonjamones{
-        grid-row: 13;
-        grid-column: 1;
-    }
-    .principal .jamonestexto{
-        grid-row: 12;
-        grid-column: 2/5;
+        display: flex;
         padding-left: 15px;
-        padding-top: 20px;
+        padding-bottom: 10px;
     }
-    .principal .titulojamones{
-        grid-row: 11;
-        padding-top: 20px;
+
+    /*INDEX*/
+    .titulo-nuestros-productos{
+        transform: translateY(25px);
     }
-    /*FOOTER 481-600*/ 
-    .piedepagina{
-        height: fit-content;
+    .video{
+        width: 400px;
     }
 }
 
-@media (min-width:601px) and (max-width:900px){
-    .navbarcss{
-        position: relative;
+/* >= 992px / lg */
+
+@media (min-width: 992px) and (max-width:1199px){
+    
+    /*General*/
+    .navbarcss h1{
+		grid-column: 3/11;
+	}
+    .navbarcss .menu{
+        grid-column: 11;
     }
     .navbarcss .shop{
         display: flex;
-        padding-left: 5px;
+        padding-left: 15px;
+        padding-bottom: 10px;
     }
-    .navbarcss .menu-bar{
-        display: none
+
+    /*INDEX*/
+
+    .titulo-nuestros-productos{
+        transform: translateY(25px);
     }
+    .principal1 {
+        display: grid;
+        grid-template-rows: 40px 200px 40px 40px 1fr 40px;
+        grid-template-columns: 1fr 1fr 50px 1fr 1fr;
+    }
+    .video{
+        width: 350px;
+    }
+
+    /*PRODIUCTOS*/
+    .botonmalbec{
+        transform: translateX(810px);
+    }
+}
+
+/* >= 768px / md */
+
+@media (min-width: 768px) and (max-width:991px){
+
+    /*General*/
+    .navbarcss h1{
+		grid-column: 3/11;
+        font-size: 25px;
+	}
     .navbarcss .logo{
         width: 50px;
-        height: 60px;
-        grid-column: 1;
-        grid-row: 1;
+		height: 60px;
     }
     .navbarcss .menu{
-        display: flex;
         grid-column: 11;
-        font-size: 12px;
-    }
-    .navbarcss h1{
-        font-family: 'Times New Roman', Times, serif;
-        color: white;
-        font-size: 20px;
-        grid-column: 2/10;
-    }
-    /*PRODUCTOS 601-900*/
-    .principal1 h2{
-        font-size: 20px;
-    }
-    .principal1 p{
         font-size: 15px;
+        transform: translateY(8px);
     }
-    .principal1{
-        display: grid;
-        grid-template-rows: 40px 270px 40px 40px 1fr;
-        grid-template-columns: repeat(5,1fr);
-    }
-    .principal1 .imagen1vino{
-        width: 70px;
-    }
-    .principal .imagen2jamon{
-        width: 30px;
-    }
-    .principal1 .video{
-        width: 30vw;
-        height: 50vh;
-    }
-    .principal1 li{
-        font-size: 15px;
-    }
-    .principal .titulotempranillo{
-        transform: translate(-310px,55px);
+    .navbarcss .shop{
+        display: flex;
+        padding-left: 15px;       
     }
 
-    /*FOOOTER 601-900*/
-    .piedepagina P{
-        font-size: 12px;
+    /*INDEX*/
+    .principal1 {
+        display: grid;
+        grid-template-rows: 40px 290px 40px 40px 1fr 50px;
+        grid-template-columns: 1fr 1fr 30px 1fr 1fr;
     }
-    .piedepagina h4{
-        font-size: 15px;
+	.titulo-vino{
+        font-size: medium;
+    }
+    .titulo-jamones{
+        font-size: medium;
+    }
+    .video{
+        width: 250px;
+    }
+
+    /*PRODUCTOS*/
+    .botonmalbec{
+        transform: translateX(600px);
+    }
+    .titulotempranillo, .titulomalbec, .titulotorrontes{
+        transform: translateX(300px);
+    }
+    .jamonestexto{
+        transform: translateY(15px);
     }
 }
-@media (min-width:901px) and (max-width:1200px){
-    .navbarcss{
-        position: relative;
-    }
+
+/* >= 576px / sm */
+
+@media (min-width: 576px) and (max-width:767px){
     .navbarcss .shop{
-        display: flex;
-        padding-left: 10px;
+        display: none;
+    }
+    .navbarcss .menu{
+        display: none;
     }
     .navbarcss .menu-bar{
-        display: none;
+        display: block;
         grid-column: 12;
+        transform: translateX(-5px);
         cursor: pointer;
         font-size: 30px;
         color: white;
-    }
-    .navbarcss .menu{
-        display: flex;
-        grid-column: 11;
-        
+        font-size: 30px;
     }
     .navbarcss h1{
-        font-size: 30px;
-        grid-column: 3/9;
+		grid-column: 3/12;
+        font-size: 25px;
+	}
+    .navbarcss .logo{
+        width: 50px;
+		height: 60px;
     }
-    /*INDEX 901-1200*/
+
+    /*INDEX*/
+
     .principal1{
-        display: grid;
-        grid-template-rows: 40px 270px 40px 40px 1fr;
+        grid-template-rows: 40px 180px 50px 280px 40px 1fr;
         grid-template-columns: repeat(5,1fr);
     }
-    .principal1 .imagen1vino{
-        width: 70px;
+    .principal1 .titulo-quienes-somos{
+        grid-column: 1/6;
+        grid-row: 1;
+        text-align: center;
     }
-    .principal .imagen2jamon{
-        width: 30px;
+    .principal1 .texto-quienes-somos{
+        grid-column: 1/6;
+        grid-row: 2;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 30px;
+        text-align: justify;
     }
-    .principal1 .video{
-        width: 30vw;
-        height: 50vh;
-    }
-    .principal1 li{
-        font-size: 15px;
-    }
-    .principal .titulotempranillo{
-        transform: translate(-400px,55px);
-    }
-}
-@media (min-width:1201px) and (max-width:1400px){
-    .navbar .menu-bar{
-        display: none;
-    }
-    
-    .navbarcss{
-        position: relative;
-    }
-    .navbarcss .shop{
-        display: flex;
-        padding-left: 10px;
-    }
-    .navbarcss .menu-bar{
-        display: none;
-        grid-column: 12;
-        cursor: pointer;
-        font-size: 30px;
-        color: white;
-    }
-    .navbarcss .menu{
-        display: flex;
-        grid-column: 11;
-        
-    }
-    .navbarcss h1{
-        font-size: 30px;
-        grid-column: 3/9;
-    }
-    /*INDEX 1201-1400*/
-    .principal1{
-        display: grid;
-        grid-template-rows: 40px 270px 40px 40px 1fr;
-        grid-template-columns: repeat(5,1fr);
+    .principal1 .titulo-nuestros-productos{
+        grid-row: 3;
+        grid-column: 1/6;
+        text-align: center;
+        align-items: center;
     }
     .principal1 .imagen1vino{
-        width: 70px;
+        grid-row: 4;
+        grid-column: 2/3;
+        border-radius: 15px;
+        transform: translateX(-20px);
     }
-    .principal .imagen2jamon{
-        width: 30px;
+    .principal1 .imagen2jamon{
+        grid-row: 4;
+        grid-column: 3/6;
+        border-radius: 15px;
+        transform: translateX(20px);
+    }
+    .principal1 .titulo-vino{
+        grid-row: 5;
+        grid-column: 2/3;
+        font-size: medium;
+    }
+    .principal1 .titulo-jamones{
+        grid-row: 5;
+        grid-column: 3/7;
+        font-size: medium;
+        transform: translateX(40px);
+    }
+    .principal1 aside{
+        grid-column: 1/6;
+        grid-row: 6;
+        line-height: 30px;
+    }
+    .principal1 .titulo-aside{
+        text-align: center;
+        padding-top: 20px;
     }
     .principal1 .video{
-        width: 30vw;
-        height: 50vh;
+        width: 450px;
     }
-    .principal1 li{
-        font-size: 15px;
+
+    /*PRODUCTOS*/
+    .botonmalbec{
+        transform: translateX(400px);
     }
-    
-    .principal .titulotempranillo{
-        
+    .titulotempranillo, .titulomalbec, .titulotorrontes{
+        transform: translateX(200px);
+    }
+    .tempranillotexto, .malbectexto, .torrontestexto{
+        transform: translateY(10px);
+    }
+    .jamonestexto{
+        transform: translateY(15px);
     }
 }

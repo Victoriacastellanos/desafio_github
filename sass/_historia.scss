@@ -1,0 +1,134 @@
+$color-title: brown;
+$font-tarjetas: poppins;
+$espaciado-card: 20px auto;
+$relleno-card: 25px;
+$fondo-tarjeta: white;
+
+.tarjeta__fuente{
+    width: 60%;
+    margin: $espaciado-card;
+    padding: $relleno-card;
+    background: $fondo-tarjeta;
+    border-radius: 5px;
+}
+
+.tarjeta__img{
+    width: 90%;
+    border-radius: 10px;
+    transform: translateX(30px);
+}
+
+.tarjeta__title{
+    margin: 5px;
+    letter-spacing: 3px;
+    font-size: 120%;
+    color: $color-title;
+    font-weight: 500;
+    font-family: $font-tarjetas;
+}
+
+.tarjeta__bajada{
+    font-size: 18px;
+    font-weight: 200;
+    font-family: $font-tarjetas;
+}
+
+.tarjeta__avellaneda{
+    @extend .tarjeta__fuente;
+}
+
+.tarjeta__independencia{
+    @extend .tarjeta__fuente;
+}
+
+.tarjeta__casatuc{
+    @extend .tarjeta__fuente;
+}
+
+.tarjeta__monumentobandera{
+    @extend .tarjeta__fuente;
+}
+
+/*Condicionales IF */
+$color-fondo: gray;
+$relleno: 20px;
+
+h6{
+    @if $color-fondo == gray {
+        color: white;
+        background-color: rgb(219, 200, 200);
+        text-align: center;
+        padding: $relleno-card;
+        border-radius: 5px;
+    } @else{
+        color: black;
+    }
+}
+
+/*Bucle FOR*/
+
+@for $i from 1 through 10{
+    .col-#{$i}{
+        width: $i * 10%;
+    }
+}
+
+/*Bucle EACH*/
+$arreglo-colores: (
+    marron-1: brown,
+    marron-2: rgb(165, 64, 64),
+    marron-3: rgb(161, 80, 80)
+);
+
+@each $color, $valor in $arreglo-colores {
+    .fondo-#{$color}{
+        background-color: $valor;
+    }
+}
+
+$redes: (
+    twitter: #55acee,
+    facebook: #3a5795,
+    send-email: #c25e30
+);
+@each $red, $color in $redes {
+    .btn--#{$red}{
+        background-color: #c25e30;
+    }
+}
+
+/*MAPAS*/
+$tamaño-fuente:(
+    'pequeño': 15px,
+    'mediano': 20px,
+    'grande': 25px
+);
+
+div{
+    background-color: map-get($map: $tamaño-fuente, $key: 'pequeño' );
+}
+
+/*MIXINS CON PARAMETROS*/
+@mixin fuente ($color-fuente, $transformacion) {
+    text-transform: $transformacion;
+    color: $color-fuente;
+}
+h6{
+    font-size: 15px;
+    @include fuente(brown, uppercase)
+}
+h3{
+    font-size: 20px;
+    @include fuente(brown, uppercase )
+}
+
+/*MIXINS*/
+@mixin crear-bordes {
+    border: transparent 1px brown;
+    border-radius: 10px;
+}
+
+.tarjeta__fuente{
+    @include crear-bordes();
+}
+
