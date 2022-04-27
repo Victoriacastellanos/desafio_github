@@ -93,7 +93,7 @@ main {
 }
 .principal1 {
 	display: grid;
-	grid-template-rows: 40px 200px 40px 40px 1fr 40px 40px;
+	grid-template-rows: 40px 200px 50px 50px 1fr 40px 40px;
 	grid-template-columns: repeat(5,1fr);
 	padding-left: 20px;
 	padding-right: 20px;
@@ -256,6 +256,9 @@ button {
 	padding-top: 15px;
 	row-gap: 15px;
 }
+
+//HISTORIA
+
 .historia {
 	h2 {
 		padding-left: 5px;
