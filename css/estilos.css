@@ -148,6 +148,13 @@ h3 {
   border-radius: 5px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 20px;
@@ -519,7 +526,7 @@ button:hover {
   height: fit-content;
   background-color: #73241d;
   color: white;
-      grid-template-areas: "contacto   seguime" "politicapriv   mapa";
+      grid-template-areas: "contacto   redes-sociales" 				 "politicapriv   mapa";
 }
 
 .piedepagina .contacto {
@@ -542,6 +549,23 @@ button:hover {
   padding-left: 10px;
   padding-right: 20px;
   line-height: 30px;
+}
+
+.piedepagina .redes-sociales .instagram {
+  font-size: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.piedepagina .redes-sociales .twitter {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.piedepagina .mapa {
+  cursor: pointer;
 }
 
 .piedepagina h4 {

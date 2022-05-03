@@ -1,11 +1,16 @@
 //IMPORTAR
 @import "historia";
-@import "index";
 
 //VARIABLES
 $font-title: 'Times New Roman', Times, serif;
 $font-general: Verdana, Geneva, Tahoma, sans-serif;
 
+//Acomodar todo el texto
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 // GENERAL
 body {
 	font-family: $font-general;
@@ -277,7 +282,9 @@ button {
 	height: fit-content;
 	background-color: rgb(115, 36, 29);
 	color: white;
-	grid-template-areas: "contacto   seguime" "politicapriv   mapa";
+	grid-template-areas: 
+	"contacto   redes-sociales" 				
+	"politicapriv   mapa";
 	.contacto {
 		grid-area: contacto;
 		text-align: left;
@@ -293,6 +300,22 @@ button {
 		padding-left: 10px;
 		padding-right: 20px;
 		line-height: 30px;
+	}
+	.redes-sociales{
+		.instagram{
+			font-size: 50px;
+			text-align: center;
+			cursor: pointer;
+		}
+		.twitter{
+			font-size: 50px;
+			color: white;
+			text-align: center;
+			cursor: pointer;
+		}
+	}
+	.mapa{
+		cursor: pointer;
 	}
 	h4 {
 		font-family: $font-general;
