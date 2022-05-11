@@ -127,27 +127,6 @@ h3 {
   border-radius: 10px;
 }
 
-.titulo-quienes-somos {
-  display: inline;
-}
-
-.principal1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.tarjetas__principal {
-  display: block;
-}
-
-.tarjeta__vinos {
-  width: 40%;
-  margin: 20px auto;
-  padding: 25px;
-  border-radius: 5px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -376,6 +355,7 @@ h2 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 30px;
   padding-top: 15px;
+  padding-left: 15px;
   -webkit-animation-name: zoomIn;
           animation-name: zoomIn;
   -webkit-animation-duration: 2s;
@@ -483,8 +463,8 @@ button:hover {
   text-align: center;
   line-height: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .galeria {
@@ -497,6 +477,7 @@ button:hover {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   padding-top: 15px;
+  padding-bottom: 15px;
   row-gap: 15px;
 }
 
@@ -514,8 +495,17 @@ button:hover {
 }
 
 .historia h2 {
-  padding-left: 5px;
+  padding-left: 20px;
   padding-top: 20px;
+}
+
+.historia p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.historia h4 {
+  padding-left: 20px;
 }
 
 .piedepagina {
